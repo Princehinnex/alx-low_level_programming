@@ -9,6 +9,8 @@
 int main(void)
 {
 	int n;
+	int L;
+	char str [] = "Last digit of";
 
 	srand(time(0));
 	n = rand() -RAND_MAX / 2;
@@ -21,5 +23,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
-
-
