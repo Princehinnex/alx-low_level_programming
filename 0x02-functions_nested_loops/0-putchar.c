@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio>
+
 
 /**
 
@@ -14,7 +16,7 @@ int main(void)
   
 {
   
-  char *sh = "main";
+  char *sh = "_putchar";
   
 
   
