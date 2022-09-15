@@ -1,22 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
-* main - main block
 *
-* Return: 0.
+* main - something
+*
+* Return: something
+*
 */
 int main(void)
 {
-int c = 0;
-int sum = 0;
-while (c < 1024)
+long int i, j, k, l;
+j = 1;
+k = 2;
+for (i = 1; i <= 50; ++i)
 {
-if (c % 3 == 0 || c % 5 == 0)
+if (j != 20365011074)
 {
-sum += c;
+printf("%ld, ", j);
 }
-c++;
+else
+{
+printf("%ld\n", j);
 }
-printf("%i\n", sum);
+l = j + k;
+j = k;
+k = l;
+}
 return (0);
 }
