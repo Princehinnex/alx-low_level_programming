@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/**
-*
+/***
 * main - something
 *
 * Return: something
