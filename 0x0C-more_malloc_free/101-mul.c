@@ -35,10 +35,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 char *tab;
 unsigned int i;
-tab = malloc(size *nmemb);
+tab = malloc(size * nmemb);
 if (tab == NULL)
 return (NULL);
-for (i = 0; i < (size *nmemb); i++)
+for (i = 0; i < (size * nmemb); i++)
 tab[i] = '0';
 return (tab);
 }
