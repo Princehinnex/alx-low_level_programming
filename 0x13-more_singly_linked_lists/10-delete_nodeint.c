@@ -11,7 +11,7 @@ listint_t *temp = *head;
 listint_t *current = NULL;
 unsigned int i = 0;
 if (*head == NULL)
-rturn (-1);
+return (-1);
 if (index == 0)
 {
 *head = (*head)->next;
