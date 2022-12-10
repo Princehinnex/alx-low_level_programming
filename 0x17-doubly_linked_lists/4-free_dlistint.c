@@ -16,7 +16,7 @@ while (next_node)
 free(actual_node);
 actual_node = next_node;
 next_node = next_node->next;
-)
+}
 free(actual_node);
 }
 }
